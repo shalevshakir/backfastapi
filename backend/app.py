@@ -24,7 +24,8 @@ app = FastAPI()
 
 # Add CORS middleware
 origins = [
-   "https://shalevshakir.github.io/front_simple_fastapi_render/"  # Allow all origins
+   "https://shalevshakir.github.io/front_simple_fastapi_render/" 
+   ,"https://shalevshakir.github.io" # Allow all origins
 ]
 
 app.add_middleware(
